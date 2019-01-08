@@ -59,13 +59,25 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
-
+nav{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	top: 0px;
+	background-color: cadetblue;
+	padding-top: 3vh;
+	border-bottom: 1px solid black;
+	z-index: 10;
+	background-image: url('/User-Interface/great-idea-website/img/logo.png');
+	background-repeat: no-repeat;
+	background-position: top 41% right 11%;
+}
 header{
 	align-content: center;
 	padding:5vh 0;
@@ -90,7 +102,6 @@ header nav a, .logo{
 
 .header-text-container h1{
     font-size: 6em;
-    text-align: center;
     width: 24vw;
 }
 
@@ -106,10 +117,12 @@ button{
     height: 7vh;
 }
 
-.header-img{
+/* .header-img{
 	width: 20vw;
-	height: auto;
-}
+	height: 20vw;
+	display: inline-block;
+	background-image:url('img/header-img.png');
+} */
 
 .main{
 	border-top: 1px solid black;
@@ -140,5 +153,17 @@ footer {
     height: 20vh;
 }
 
+body{
+	background-image: url('/User-Interface/great-idea-website/img/header-img.png'),url('/User-Interface/great-idea-website/img/mid-page-accent.jpg');
+	background-repeat: no-repeat,no-repeat;
+	background-position: top 33% right 13%, top 122% left 50%;
+	background-color: #faebd7;
+}
+
+a:hover{
+	cursor: pointer;
+	border-bottom: 3px solid cornsilk;
+	transition-duration: 300ms;
+}
 
 

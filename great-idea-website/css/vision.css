@@ -1,0 +1,12 @@
+section{
+    text-align: center;
+}
+img{
+    width: 30vw;
+}
+
+.newline img{
+    margin:auto;
+    display: block;
+    width: 20vw;
+}
